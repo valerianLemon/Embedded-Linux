@@ -1,0 +1,15 @@
+    /* Connect to server */
+    // List files
+        // 1. Client -> server = "DLESTXlistDLEETX"
+        // 1.1 Sever -> client = "DLESTXapproval or denialDLEETX"
+        // 2. Server -> client = "DLESTXf1@f2@f3DLEETX"
+        // 3. client -> server = "DLESTXfilenameDLEETX"
+        // 4. Server -> client = "DLESTXsequence of bytesDLEETX"
+
+
+    // Uploading a file
+        // 1. Client -> server = "DLESTXuploadDLEETX"
+        // 1.1 server -> client = "DLESTXapproval or denial (0 or 1)DLEETX"
+        // 2. Client -> server = "DLESTXfilenameDLEETX"
+        // 3. Client -> server = "DLESTXsequence of bytesDLEETX"
+        // 4. Server -> client = "DLESTXsuccess or not (0 or 1)"

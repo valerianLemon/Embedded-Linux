@@ -1,0 +1,4 @@
+The 'touch' command changes the current time of an abject to the current time.
+If a c file or an object has its time stamp change after compilation then the makefile willrecompile it, because it thinks that the file has changed
+The 'rm' command removes a file
+If one object file or an executable is removed the makefile will compile it back.

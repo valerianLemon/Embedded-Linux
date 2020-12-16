@@ -1,0 +1,17 @@
+'all: www xxxx yyy zzz' is used for compiling four executables: www, xxxx, yyy and zzz
+THoes executable need need to be linked with som object files.
+
+"%.o: %.c
+	$(CC) -o $@ -c $^"
+is used to comliple all c files into objects.
+
+"xxxx: dddd.o
+	$(CC) -o $@ $^ -lrt
+
+yyy: eee.o
+	$(CC) -o $@ $^ -lpthread
+
+zzz: ff.o
+	$(CC) -o $@ $^ -lrt"
+
+this are used to link all the objects files and library fintions into executables.
